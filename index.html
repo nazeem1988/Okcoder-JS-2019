@@ -9,13 +9,12 @@
 <body>
     <h1>Welcome to Week 1</h1>
     <script>
-        var age = prompt("Whats your day of birth");
-        var day = prompt("Whats your AGE");
-        var name = prompt("Whats your name");
-    document.write("<h1>" + name + "</h1>");
-    document.write("<div>AGE: " + (age / 3) + "</div>");
-    document.write("<br>")
-    document.write("<div>AGE: " + (day * 127) + "</div>");
+        var song = prompt('Lyrics');
+        while(song > 1) {
+            document.write(song + " Bottles of beer" + "<br>");
+            song--;
+        }
+        
     </script>
 </body>
 </html>
